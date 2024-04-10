@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(172, 8, 8, 0.492);
+ 
+}
+nav{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 40px  60px ;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(231, 187, 187) ;
+}
+.btn{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px ;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(252, 137, 124);
+    transition-delay: 0.5s;
+}
+label{
+    font-style: italic;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+     font-size: large;
+}
+button{
+    margin-left: 20px;
+}
+.form-control{
+     margin-right: 20px;
+}
+img{
+    width: 250px;
+    padding: 5px;
+    height: 400px;
+}
+.specpic{
+    background-image: url(./specpic.jpg);
+    display: flex;
+    height: 500px;
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;   
+    justify-content: center;
+    margin-top: 30px;
+}
+.card{
+    border: 3px dotted rgba(255, 2, 2, 0.549);
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.secndlist{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.parentdiv{
+    display: flex;
+    border: 3px solid green;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+.child1{
+    width: 200px;
+    background-color: azure;
+}
+.carddiv{
+    margin-top: 70px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+.buynow{
+    height: 35px;
+    width: 100px;
+    background-color: rgba(252, 137, 124, 0.836);
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.buynow:hover{
+    border:2px solid  rgb(252, 137, 124);
+    background-color: white;
+}
+ 
